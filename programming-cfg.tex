@@ -1,0 +1,15 @@
+\usepackage[style=ieee, dashed=false]{biblatex}
+\usepackage{listings}
+\usepackage{tikz}
+
+\input{listings-cfg}
+
+\lstset{style=github, float, caption=\lstname}
+
+% https://tex.stackexchange.com/questions/661993/recreate-markdown-style-inline-code-blocks-in-latex
+\tikzset{baseline, inner sep=2pt, minimum height=14pt}
+\newcommand{\code}[1]{\mbox{% added this percent
+    \ttfamily
+    \tikz \node[anchor=base,fill=listing-background]{#1};% added this percent
+  }}
+
