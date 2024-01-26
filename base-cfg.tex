@@ -14,3 +14,9 @@
 
 %=============================== Custom Commands ===============================
 \newcommand{\texthl}[1]{\colorbox{yellow}{#1}}
+
+\newcommand{\mathhl}[2][yellow]{\mathchoice%
+        {\colorbox{#1}{$\displaystyle#2$}}%
+        {\colorbox{#1}{$\textstyle#2$}}%
+        {\colorbox{#1}{$\scriptstyle#2$}}%
+        {\colorbox{#1}{$\scriptscriptstyle#2$}}}%
