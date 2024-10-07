@@ -2,7 +2,9 @@
 
 \bibstyle{ieee}
 
-\lstset{style=github, float, caption=\lstname}
+% Disable dashes for repeated names in bibliography
+\DeclareFieldFormat{related}{#1}
+\DeclareFieldFormat{relatedothers}{#1}
 
 % https://tex.stackexchange.com/questions/661993/recreate-markdown-style-inline-code-blocks-in-latex
 \tikzset{baseline, inner sep=2pt, minimum height=14pt}
