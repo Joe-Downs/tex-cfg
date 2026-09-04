@@ -95,6 +95,10 @@
 \newcommand{\pretty}[1]{}
 \if@pretty\renewcommand{\pretty}[1]{#1}\fi
 
+% Set for Dissertation or Thesis. TODO: make this an option for the class
+%\newcommand{\treatisetype}{Dissertation}
+\newcommand{\treatisetype}{Thesis}
+
 % Set the margins
 
 %\RequirePackage[left=1.5in,right=1.0625in,top=1in,bottom=1in,footskip=0.5in]{geometry} 
@@ -271,7 +275,7 @@
      
       \parbox[c][][t]{\@titlelinewidth}{
           \begin{center}
-            Dissertation approved on
+            \treatisetype{} approved on
           \end{center}
         }
 
@@ -289,7 +293,7 @@
 
       \parbox[c][][t]{\@titlelinewidth}{
           \begin{center}
-            by the following dissertation Committee:
+            by the following \treatisetype{} Committee:
           \end{center}
         }
 
@@ -353,7 +357,7 @@
      
       \parbox[c][][t]{\@titlelinewidth}{
           \begin{center}
-            A Dissertation \\ 
+            A \treatisetype{} \\ 
             Submitted to the Faculty of the \\
             \@theschool  of the \uofl \\
             in Partial Fulfillment of the Requirements \\
