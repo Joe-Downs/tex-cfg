@@ -155,6 +155,9 @@
 \newlength{\@dedicationskip}\setlength{\@dedicationskip}{4in}
 \addtolength{\@dedicationskip}{-\@topmatter}
 
+% UofL macro
+\newcommand{\uofl}{University of Louisville}
+
 % Renew \maketitle and related commands
 \newcommand{\@theyear}{\number\the\year}%the current year
 \if@pretty\relax\else
@@ -352,7 +355,7 @@
           \begin{center}
             A Dissertation \\ 
             Submitted to the Faculty of the \\
-            \@theschool  of the University of Louisville \\
+            \@theschool  of the \uofl \\
             in Partial Fulfillment of the Requirements \\
             for the Degree of 
           \end{center}
@@ -372,7 +375,7 @@
       \parbox[c][][t]{\@titlelinewidth}{
           \begin{center}
              \@thedepartment \\
-             University of Louisville \\
+             \uofl \\
              Louisville, Kentucky
           \end{center}
         }
