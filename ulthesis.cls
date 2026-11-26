@@ -567,7 +567,7 @@
   \renewcommand{\thechapter}{\Roman{chapter}}
   \renewcommand{\chapnumfont}{\normalfont} %removed bfseries
   \renewcommand{\chapnamefont}{\normalfont} %removed bfseries
-  \renewcommand{\printchaptername}{\begin{center}\chapnamefont CHAPTER}
+  \renewcommand{\printchaptername}{\begin{center}\chapnamefont \MakeUppercase{\@chapapp}}
   \renewcommand{\printchapternum}{\chapnumfont\thechapter\space}
   \renewcommand{\afterchapternum}{\normalfont\end{center}}
   \renewcommand{\printchaptertitle}[1]{\normalfont\begin{center}\uppercase{##1}\end{center}} %removed \bfseries 
