@@ -403,7 +403,7 @@
   \thispagestyle{empty}
     \rule{0in}{\@titletopskip}
     \begin{center}
-      Copyright \@theyear{} \/ by \@theauthor{}
+      Copyright \@theyear{} by \@theauthor{}
     \end{center}
     
     \vspace{\parskip}
