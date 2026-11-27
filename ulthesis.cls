@@ -245,6 +245,7 @@
 
 \newcommand{\makeapprovalpage}{
   \thispagestyle{plain}
+  \pagenumbering{roman}% approval page is numbered ii, like the rest of the front matter
   \setcounter{page}{2}
   \pdfbookmark[0]{Approval Page}{approvalpage}
     \begin{center}
