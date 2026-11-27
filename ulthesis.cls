@@ -254,7 +254,7 @@
        \parbox[c][\@titletitleheight][t]{\linewidth}{
            \begin{center}
              \vspace{-.75\baselineskip}
-             \@thetitle
+             \@thetitle{}
            \end{center}
        }
       \par\noindent
@@ -266,8 +266,8 @@
             \vspace{8ex}
             By \\ 
             \vspace{4ex}
-            \@theauthor \\
-            \@theauthordegree
+            \@theauthor{} \\
+            \@theauthordegree{}
           \end{center}
         }
 
@@ -359,7 +359,7 @@
           \begin{center}
             A \treatisetype{} \\ 
             Submitted to the Faculty of the \\
-            \@theschool  of the \uofl \\
+            \@theschool{} of the \uofl{}\\
             in Partial Fulfillment of the Requirements \\
             for the Degree of 
           \end{center}
@@ -378,8 +378,8 @@
       
       \parbox[c][][t]{\@titlelinewidth}{
           \begin{center}
-             \@thedepartment \\
-             \uofl \\
+             \@thedepartment{} \\
+             \uofl{}\\
              Louisville, Kentucky
           \end{center}
         }
@@ -388,7 +388,7 @@
 
       \parbox[c][][t]{\@titlelinewidth}{
           \begin{center}              
-            \@thedissertationdate
+            \@thedissertationdate{}
           \end{center}
         }
         
@@ -402,7 +402,7 @@
   \thispagestyle{empty}
     \rule{0in}{\@titletopskip}
     \begin{center}
-      Copyright \@theyear \/ by \@theauthor
+      Copyright \@theyear{} \/ by \@theauthor{}
     \end{center}
     
     \vspace{\parskip}
